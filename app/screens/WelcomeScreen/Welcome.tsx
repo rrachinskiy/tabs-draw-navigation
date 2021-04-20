@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { View, Text } from 'react-native'
 import { styles } from './styles'
 
-import Context from '../../../context'
+import Context from '../../context'
 
 const Welcome = () => {
   const context = useContext(Context)

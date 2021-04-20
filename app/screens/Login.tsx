@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { Button, StyleSheet, TextInput, View } from 'react-native'
 
-import Context from '../../context'
+import Context from '../context'
 
 const HomeScreen = ({ navigation }) => {
   const [username, setUsername] = useState('')
